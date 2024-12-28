@@ -7,12 +7,12 @@ const Header = () => {
   return (
     <div
     style={{ backgroundImage: "url(" + bg.src + ")" }}
-  className="relative w-full h-screen  bg-no-repeat bg-cover bg-center overflow-hidden"
+  className="relative w-full h-full  bg-no-repeat bg-cover bg-center overflow-hidden"
   >
     {/* Background overlay with blur effect */}
     <div className="absolute inset-0 bg-black/50"></div>
       {/* Content container */}
-      <div className="relative h-full flex flex-col items-center justify-center text-center">
+      <div className="relative h-screen flex flex-col items-center justify-center text-center ">
         {/* Main heading with responsive text sizes */}
         <h1 className="text-white max-w-4xl mx-auto">
           <span className="block text-3xl md:text-4xl lg:text-5xl font-bold mb-2">
