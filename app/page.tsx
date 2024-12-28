@@ -6,6 +6,7 @@ import KeyBenefits from './benefits/page'
 import WhyChooseUs from './whychoseus/page'
 import CTABanner from './calling/page'
 import Disclaimer from './disclaimer/page'
+import HighlightedArea from './highlightedarea/page'
 
 const home = () => {
   return (
@@ -17,6 +18,7 @@ const home = () => {
       <WhyChooseUs/>
       <CTABanner />
       <Disclaimer />
+      <HighlightedArea/>
     </div>
   )
 }
