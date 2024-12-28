@@ -7,6 +7,7 @@ import WhyChooseUs from './whychoseus/page'
 import CTABanner from './calling/page'
 import Disclaimer from './disclaimer/page'
 import HighlightedArea from './highlightedarea/page'
+import Footer from './footer/page'
 
 const home = () => {
   return (
@@ -19,6 +20,7 @@ const home = () => {
       <CTABanner />
       <Disclaimer />
       <HighlightedArea/>
+      <Footer />
     </div>
   )
 }
