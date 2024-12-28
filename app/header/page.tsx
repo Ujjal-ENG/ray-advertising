@@ -1,5 +1,6 @@
 import React from 'react'
 import bg from '../../public/image/header.png';
+import QuestionCard from '../questions/page';
 
 const Header = () => {
   return (
@@ -9,7 +10,6 @@ const Header = () => {
   >
     {/* Background overlay with blur effect */}
     <div className="absolute inset-0 bg-black/50"></div>
-      
       {/* Content container */}
       <div className="relative h-full flex flex-col items-center justify-center px-4 text-center">
         {/* Main heading with responsive text sizes */}
@@ -24,8 +24,11 @@ const Header = () => {
         
         {/* Subtext */}
         <p className="text-white text-lg md:text-xl max-w-2xl">
-          Don't Overpay for Insurance. Answer a Few Quick Questions to Find Your Best Rate Today!
+          Don&apos;t Overpay for Insurance. Answer a Few Quick Questions to Find Your Best Rate Today!
         </p>
+
+        {/* Questions Container */}
+         <QuestionCard />
       </div>
   </div>
   )
