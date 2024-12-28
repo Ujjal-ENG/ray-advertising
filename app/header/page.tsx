@@ -1,6 +1,7 @@
 import React from 'react'
 import bg from '../../public/image/header.png';
 import QuestionCard from '../questions/page';
+import Partners from '../parterners/page';
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
     {/* Background overlay with blur effect */}
     <div className="absolute inset-0 bg-black/50"></div>
       {/* Content container */}
-      <div className="relative h-full flex flex-col items-center justify-center px-4 text-center">
+      <div className="relative h-full flex flex-col items-center justify-center text-center">
         {/* Main heading with responsive text sizes */}
         <h1 className="text-white max-w-4xl mx-auto">
           <span className="block text-3xl md:text-4xl lg:text-5xl font-bold mb-2">
@@ -29,6 +30,9 @@ const Header = () => {
 
         {/* Questions Container */}
          <QuestionCard />
+
+         {/* Partners Container */}
+         <Partners />
       </div>
   </div>
   )
