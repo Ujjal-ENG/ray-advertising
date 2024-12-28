@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Marquee from 'react-fast-marquee';
 const Partners = () => {
     const partners = [
         "TRAVELERS",
@@ -14,7 +14,7 @@ const Partners = () => {
       <p className="text-white text-sm font-semibold mb-3 text-center">
         OUR PARTNERS
       </p>  
-      <marquee scrollamount="5" className="flex whitespace-nowrap">
+      <Marquee speed={40} pauseOnHover={true} className="flex whitespace-nowrap">
         {partners.map((partner, index) => (
           <div 
             key={index}
@@ -23,7 +23,7 @@ const Partners = () => {
             <span className="text-orange-500 font-bold text-sm px-4">{partner}</span>
           </div>
         ))}
-      </marquee>
+      </Marquee>
     </div>
   )
 }
