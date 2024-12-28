@@ -5,6 +5,7 @@ import HowItWorks from './howitworks/page'
 import KeyBenefits from './benefits/page'
 import WhyChooseUs from './whychoseus/page'
 import CTABanner from './calling/page'
+import Disclaimer from './disclaimer/page'
 
 const home = () => {
   return (
@@ -15,6 +16,7 @@ const home = () => {
       <KeyBenefits />
       <WhyChooseUs/>
       <CTABanner />
+      <Disclaimer />
     </div>
   )
 }
