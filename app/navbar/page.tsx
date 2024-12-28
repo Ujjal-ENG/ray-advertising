@@ -3,12 +3,11 @@ import Image from 'next/image';
 const Navbar = () => {
   return (
     <div>
-        <div className="bg-blue-900 flex items-center justify-between px-4 py-2">
+        <div className="bg-[#011733] flex items-center justify-between px-4 py-4">
 
   <div className="flex items-center space-x-2">
-    <Image src="/images/logo.png" alt="logo-png" className="h-10" width={30} height={30}/>
+    <Image src="/image/logo.png" alt="logo-png" className="h-10" width={154} height={80}/>
   </div>
-
  
   <div className="flex flex-column items-center space-x-6 text-white text-sm">
     <span>
